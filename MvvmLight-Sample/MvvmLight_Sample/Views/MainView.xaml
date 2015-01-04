@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+					   x:Class="MvvmLight_Sample.Views.MainView">
+  <StackLayout Padding="12, 0, 12, 0">
+    <Label Text="Insert your name:" />
+    <Entry Text="{Binding Path=Name, Mode=TwoWay}" />
+    <Button Command="{Binding Path=ShowMessageCommand}" Text="Show message" />
+    <Label Text="{Binding Path=Message}" FontSize="30" />
+  </StackLayout>
+</ContentPage>
