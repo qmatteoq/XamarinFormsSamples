@@ -6,9 +6,9 @@ using System.Windows.Markup;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
-using Views.WinPhone.Resources;
+using Navigation.WinPhone.Resources;
 
-namespace Views.WinPhone
+namespace Navigation.WinPhone
 {
     public partial class App : Application
     {
@@ -39,7 +39,7 @@ namespace Views.WinPhone
             if (Debugger.IsAttached)
             {
                 // Display the current frame rate counters.
-                Application.Current.Host.Settings.EnableFrameRateCounter = false;
+                Application.Current.Host.Settings.EnableFrameRateCounter = true;
 
                 // Show the areas of the app that are being redrawn in each frame.
                 //Application.Current.Host.Settings.EnableRedrawRegions = true;
