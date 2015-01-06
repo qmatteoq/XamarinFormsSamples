@@ -11,7 +11,7 @@ namespace MvvmLight_Sample.Views
         public MainView()
         {
             InitializeComponent();
-            this.BindingContext = App.Locator.MainViewModel;
+            this.BindingContext = App.Locator.Main;
         }
     }
 }

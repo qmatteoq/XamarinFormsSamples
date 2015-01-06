@@ -22,7 +22,7 @@ namespace MvvmLight_Sample.ViewModels
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Performance",
             "CA1822:MarkMembersAsStatic",
             Justification = "This non-static member is needed for data binding purposes.")]
-        public MainViewModel MainViewModel
+        public MainViewModel Main
         {
             get
             {
